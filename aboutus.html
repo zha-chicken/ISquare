@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们 - MeSquare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f7b42c 0%, #fc575e 100%);
+            font-family: 'Montserrat', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255,255,255,0.85);
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(60,60,60,0.12);
+            padding: 40px 32px;
+            text-align: center;
+            max-width: 400px;
+        }
+        h2 {
+            color: #fc575e;
+            margin-bottom: 1.5rem;
+        }
+        .info {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        a {
+            color: #fc575e;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.7rem 2rem;
+            background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .back:hover {
+            background: linear-gradient(90deg, #fc575e 0%, #f7b42c 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>关于我们</h2>
+        <div class="info">邮箱: zhangyuebeijing@outlook.com</div>
+        <div class="info">Github: <a href="https://github.com/zha-chicken/MySquare" target="_blank">https://github.com/zha-chicken/MySquare</a></div>
+        <button class="back" onclick="window.location.href='index.html'">返回主页</button>
+    </div>
+</body>
+</html> 
