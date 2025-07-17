@@ -10,12 +10,26 @@
             margin: 0;
             padding: 0;
             min-height: 100vh;
-            background: linear-gradient(135deg, #f7b42c 0%, #fc575e 100%);
+            /* 动态蓝紫渐变背景 */
+            background: linear-gradient(270deg, #6a82fb, #fc5c7d, #6a82fb, #5f2c82, #49a09d, #6a82fb);
+            background-size: 1200% 1200%;
+            animation: gradientFlow 18s ease infinite;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             font-family: 'Montserrat', Arial, sans-serif;
+        }
+        @keyframes gradientFlow {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
         .container {
             background: rgba(255,255,255,0.85);
