@@ -44,6 +44,7 @@
    pip install ollama
    pip install pycryptodome
    pip install flask
+   pip install flask_cors
    ```
 
 ### 运行步骤
