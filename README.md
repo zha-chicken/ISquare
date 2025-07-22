@@ -51,7 +51,7 @@ Isquare AI&Time Management
 2. 下载ollama
 3. 
    ```bash
-   ollama pull deepseek-r1:1.5b
+   ollama pull deepseek-r1:8b
    ```
 
 4. **启动对话API**：
@@ -86,7 +86,7 @@ Isquare AI&Time Management
 1. 首次运行需要下载约 1.5B 参数的模型，请确保网络畅通(1.1GB)
 2. 系统会持续追加日志内容，建议定期清理旧日志文件
 3. 特征分析基于用户提问内容，提问越多分析越准确
-4. 如需更换模型，请修改代码中的 `deepseek-r1:1.5b` 为其他可用模型
+4. 如需更换模型，请修改代码中的 `deepseek-r1:8b` 为其他可用模型
 
 ## 自定义建议
 
